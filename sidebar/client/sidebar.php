@@ -7,12 +7,33 @@
         getData(`../server/almufajok.php?mufajid=${id}`, renderAlmenu)
         return `
         <li class="active">
-            <a href="#${id}" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">${mufajnev}</a>
+            <a href="#${id}" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle" onclick="show(this)">${mufajnev}</a>
             <ul class="collapse list-unstyled" id="${id}">
 
             </ul>
         </li>
         `
+    }
+
+    function show(obj){
+        console.log(obj.href.at(-1))
+        let id=obj.href.at(-1)
+        getData("../server/eloadok.php?mufajid="+id, renderEloado)
+    }
+
+    function renderEloado(data){
+        console.log(data)
+        //window.location.href="index.php?prog=teszt.php"
+        let str=""
+        for(let obj of data){
+            str+=`
+            <div>
+            <p>${obj.nev}</p>
+            <p>Születési idő:${obj.szulido}</p>
+            </div>
+            `
+        }
+        document.getElementById("eloado").innerHTML=str
     }
 
     function renderMenu(data){

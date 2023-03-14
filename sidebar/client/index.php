@@ -80,7 +80,7 @@
             </nav>
 
             <h2>I'm ballin'</h2>
-            <p></p>
+            <p id="eloado"></p>
             <p></p>
 
             <div class="line"></div>

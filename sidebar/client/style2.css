@@ -1,0 +1,84 @@
+#Table1{
+    border: 1px solid #A2A9B1;
+    border-radius: 0px;
+    background-color: #F8F9FA;
+    background-image: none;
+    border-collapse: none;
+    border-spacing: 1px;  
+    margin: 0;
+}
+  
+  #Table1 td{  
+    padding: 4px 4px 4px 4px;
+}
+  
+  #Table1 p, #Table1 ul{
+    margin: 0;
+    padding: 0;  
+}
+  
+  #Table1 .cell0{
+    background-color: transparent;
+    background-image: none;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: #000000;
+    border-right-color: #000000;
+    border-bottom-color: #000000;
+    border-left-color: #000000;
+    text-align: center;
+    vertical-align: top;
+    color: #000000;
+    font-family: arial;
+    font-size: 15px;  
+    line-height: 16.5px;
+}
+  
+  #Table1 .cell1{
+    background-color: transparent;
+    background-image: none;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: #000000;
+    border-right-color: #000000;
+    border-bottom-color: #000000;
+    border-left-color: #000000;
+    text-align: center;
+    vertical-align: top;  
+    font-size: 0;
+}
+
+  #Table1 .cell2{
+    background-color: transparent;
+    background-image: none;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: #000000;
+    border-right-color: #000000;
+    border-bottom-color: #000000;
+    border-left-color: #000000;
+    text-align: left;
+    vertical-align: top;
+    color: #000000;
+    font-family: Arial;
+    font-size: 13px;
+    line-height: 16px;  
+}
