@@ -5,9 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <title>Előadók</title>
 </head>
-<body>
+<body class="container">
+  <div class="row">
   <div class="col-6-md">
     <p>1986. október 24-én született a kanadai Torontóban. Apja Dennis Graham afroamerikai dobos, anyja Sandi Graham zsidó származású kanadai. Végzettségét tekintve pedagógus. Drake a helyi zsidó iskolában tanult. A rapper ötéves volt, amikor szülei elváltak. 2012-ben érettségizett le, miután tinédzser korában kicsapták az iskolából. Drake iskolás éveiről úgy nyilatkozott, hogy sokat bántották bőrszíne és vallása miatt.</p>
     <p>Színészként kezdte karrierjét. A Degrassi gimi című tinisorozatban mutatkozott meg először, a 2000-es évek elején.
@@ -106,14 +108,14 @@ Drake negyedik stúdióalbuma, a Views 2016-ban jelent meg. Ezzel az albummal fe
             <tr>
               <td class="cell2"><p> <span id="my_jimdel31">Genres</span></p>
               </td>
-              <td class="cell2"><p>Martial art - Action Movies</p>
+              <td class="cell2"><p>	Hip hop - R&B - pop rap - pop - trap</p>
               </td>
             </tr>
 
             <tr>
               <td class="cell2"><p> <span id="my_jimdel31">Instruments</span></p>
               </td>
-              <td class="cell2"><p>Guitar - Piano</p>
+              <td class="cell2"><p>Vocals</p>
               </td>
             </tr>
           </table>
@@ -121,5 +123,6 @@ Drake negyedik stúdióalbuma, a Views 2016-ban jelent meg. Ezzel az albummal fe
       </div>
       </div>
     </div>
+  </div>
 </body>
 </html>
